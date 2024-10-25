@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Monitoring</title>
+</head>
+<body>
+    <h1>Weather Monitoring Dashboard</h1>
+
+    <!-- Alert confirmation message -->
+    {% if alert_sent %}
+        <p style="color: red;">An alert message has been sent to the registered email-id.</p>
+    {% endif %}
+
+    <table border="1">
+        <tr>
+            <th>Date</th>
+            <th>City</th>
+            <th>Temperature (°C)</th>
+            <th>Feels Like (°C)</th>
+            <th>Weather</th>
+            <th>Timestamp</th>
+        </tr>
+        {% for record in weather_data %}
+        <tr>
+            <td>{{ record[0] }}</td>
+            <td>{{ record[1] }}</td>
+            <td>{{ record[2] }}</td>
+            <td>{{ record[3] }}</td>
+            <td>{{ record[4] }}</td>
+            <td>{{ record[5] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

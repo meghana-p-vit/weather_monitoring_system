@@ -1,0 +1,8 @@
+requests==2.31.0
+schedule==1.2.0
+sqlalchemy==2.0.20
+matplotlib==3.7.1
+numpy==1.25.2
+Flask
+sqlite3
+plotly
