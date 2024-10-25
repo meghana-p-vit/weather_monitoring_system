@@ -9,4 +9,4 @@ ALERT_CONSECUTIVE_READINGS = 2  # Number of updates above threshold to trigger a
 EMAIL_HOST = "smtp.gmail.com"  # e.g., smtp.gmail.com for Gmail
 EMAIL_PORT = 587  # Usually for TLS connections or 465 for SSL
 EMAIL_USER = "meghameghana2904@gmail.com"
-EMAIL_PASS = "wppb lyke ijlx zati"
+EMAIL_PASS = "grhg ewrt akfj rfdg"
