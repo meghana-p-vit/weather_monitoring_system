@@ -1,0 +1,8 @@
+version: 1
+services:
+  - type: web
+    name: weather_monitoring_system
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn src.app:app"
+    autoDeploy: true

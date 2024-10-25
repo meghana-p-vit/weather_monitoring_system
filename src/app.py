@@ -8,6 +8,7 @@ from weather_data import fetch_weather_data, update_daily_summary
 from alert_system import check_alerts
 from config import CITIES, FETCH_INTERVAL
 from visualization import plot_daily_summary
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
