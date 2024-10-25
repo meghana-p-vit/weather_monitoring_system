@@ -1,5 +1,5 @@
 # config.py
-API_KEY = "f82c15f1f07b63f996d491c539c9cc7c"
+API_KEY = "h3hf874ir72jf0qd3bd7c3a0ng6f9nb3"
 CITIES = ["Delhi", "Mumbai", "Chennai", "Bangalore", "Kolkata", "Hyderabad"]
 TEMP_UNIT = "Celsius"  # Can switch between "Celsius" or "Fahrenheit"
 FETCH_INTERVAL = 300  # in seconds, i.e., 5 minutes
