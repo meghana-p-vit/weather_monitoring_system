@@ -15,7 +15,7 @@ def kelvin_to_fahrenheit(temp):
     return (temp - 273.15) * 9/5 + 32
 
 def fetch_weather_data(city):
-    url = f"https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=f82c15f1f07b63f996d491c539c9cc7c"
+    url = f"https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=h3hf874ir72jf0qd3bd7c3a0ng6f9nb3"
     try:
         response = requests.get(url)
         response.raise_for_status()  # Raise an error for bad responses
